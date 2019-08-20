@@ -43,11 +43,11 @@ typedef struct {
 
 static const command step[] = {
 	// Setup controller
-	{ NOTHING,  250 },
+	{ NOTHING,  100 },
 	{ TRIGGERS,   5 },
-	{ NOTHING,  150 },
+	{ NOTHING,   30 },
 	{ TRIGGERS,   5 },
-	{ NOTHING,  150 },
+	{ NOTHING,   30 },
 	{ A,          5 },
 	{ NOTHING,  250 },
 
