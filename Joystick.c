@@ -42,6 +42,9 @@ typedef struct {
 } command; 
 
 static const command step[] = {
+	// Duration 1:10 (1 duration == 10ms)
+	// This loops endlessly.
+
 	// Setup controller
 	{ NOTHING,  100 },
 	{ TRIGGERS,   5 },
